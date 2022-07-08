@@ -1,0 +1,75 @@
+/* Index */
+.indexPrincipal{
+	&__presentacion{
+	@include bgLineas;
+	}
+}
+
+.indexResumen{
+	&__Tabla{
+	background-color: $bgRosado;
+	}
+}
+
+.indexClientes{
+	&__carta{
+	background-color: $bgRosado;
+	}
+}
+/* Index */
+/* servicio */
+.servicioProductos{
+	&__carta{
+	background-color: $bgRosado;
+	}
+}
+/* servicio */
+/*promociones */
+.promocionCuadros{
+	&__colorBlue{
+		background-color: $bgAzul;
+	}
+}
+
+.promocionCuadros{
+	&__colorRed{
+		background-color: $bgRed;
+	}
+}
+
+.promocionCuadros{
+	&__colorYellow{
+		background-color: $bgYellow;
+	}
+}
+
+/*promociones */
+/* quienes somos */
+.quienessomos{
+	&__Presentacion{
+		@include bgLineas;
+	}
+
+	&__personal__bg{
+		background-color: $bgRosado;
+	}
+}
+/* quienes somos */
+/* Contacto */
+.contacto{
+	&__bg{
+		background-color: $bgCeleste;
+	}
+}
+/* Contacto */
+/* intranet */
+.intranet{
+	&__bg{
+		background-color: $bgRosado;
+	}	
+}
+
+
+
+/* intranet */
+

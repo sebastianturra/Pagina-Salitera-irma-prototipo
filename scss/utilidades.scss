@@ -1,0 +1,16 @@
+/* aliniación del texto */
+/* aliniación del texto */
+
+/* tamaño de imagenes */
+/* tamaño de imagenes */
+
+/* animaciones, transiciones */
+/* animaciones, transiciones */
+
+@mixin bgLineas{
+	background-image: url("../img/bg_principal.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: auto;
+}
