@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* map */
+/* map */
 /*background*/
 /*background*/
 @import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Roboto:wght@300;400;500&display=swap");
@@ -12,63 +14,61 @@
 /* tamaño de imagenes */
 /* animaciones, transiciones */
 /* animaciones, transiciones */
+.backgroundRosado, .intranet__bg, .quienessomos__personal__bg, .servicioProductos__carta, .indexClientes__carta, .indexResumen__Tabla {
+  background-color: rgb(232, 225, 202);
+}
+
 header {
   color: #FFFFFF;
-  background-color: #092e4c; }
+  background-color: rgb(9, 46, 76);
+}
 
 footer {
-  background-color: #6b7ba2; }
+  background-color: rgb(107, 123, 162);
+}
 
 /* Index */
 .indexPrincipal__presentacion {
-  background-image: url("../img/bg_principal.jpg");
+  background-image: url("../img/background/bg_principal.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: auto; }
-
-.indexResumen__Tabla {
-  background-color: #e8e1ca; }
-
-.indexClientes__carta {
-  background-color: #e8e1ca; }
+  height: auto;
+}
 
 /* Index */
 /* servicio */
-.servicioProductos__carta {
-  background-color: #e8e1ca; }
-
 /* servicio */
 /*promociones */
 .promocionCuadros__colorBlue {
-  background-color: #6b7ba2; }
+  background-color: rgb(107, 123, 162);
+}
 
 .promocionCuadros__colorRed {
-  background-color: #FF0000; }
+  background-color: #FF0000;
+}
 
 .promocionCuadros__colorYellow {
-  background-color: #FFF000; }
+  background-color: #FFF000;
+}
 
 /*promociones */
 /* quienes somos */
 .quienessomos__Presentacion {
-  background-image: url("../img/bg_principal.jpg");
+  background-image: url("../img/background/bg_principal.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: auto; }
-
-.quienessomos__personal__bg {
-  background-color: #e8e1ca; }
-
+  height: auto;
+}
 /* quienes somos */
 /* Contacto */
 .contacto__bg {
-  background-color: #c2d0c1; }
+  background-color: rgb(194, 208, 193);
+}
 
 /* Contacto */
 /* intranet */
-.intranet__bg {
-  background-color: #e8e1ca; }
-
 /* intranet */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,11 +1,28 @@
+
+/* map */
+ $colores: (
+ 	'rosado':rgba(232,225,202,1),
+ 	'celeste':rgba(194,208,193,1),
+ 	'azul':rgba(107,123,162,1),
+ 	'morado':rgba(9,46,76,1),
+ 	'gray':rgba(232,225,202,1),
+ 	'darkgray':rgba(229,221,221,.8),
+ 	'red':#FF0000,
+ 	'yellow':#FFF000,
+ );
+/* map */
+
 /*background*/ 
-$bgRosado: rgba(232,225,202,1);
-$bgCeleste: rgba(194,208,193,1);
-$bgAzul: rgba(107,123,162,1);
-$bgMorado: rgba(9,46,76,1);
-$bgGrey: rgba(232,225,202,1);
-$bgDarkgrey: rgba(229,221,221,.8);
-$bgRosado: rgba(232,225,202,1);
-$bgRed: #FF0000;
-$bgYellow: #FFF000;
+$bgRosado: map-get($map:$colores, $key:'rosado');
+$bgCeleste: map-get($map:$colores, $key:'celeste');
+$bgAzul: map-get($map:$colores, $key:'azul');
+$bgMorado: map-get($map:$colores, $key:'morado');
+$bgGrey: map-get($map:$colores, $key:'gray');
+$bgDarkgrey: map-get($map:$colores, $key:'darkgray');
+$bgRed: map-get($map:$colores, $key:'red');
+$bgYellow: map-get($map:$colores, $key:'yellow');
 /*background*/ 
+
+
+
+

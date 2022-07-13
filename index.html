@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<!-- Meta -->
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Sebastián Turra">
+<meta name="keywords" content="Sanitaria Irma, baños quimicos, resumen, clientes">  
+<meta name="description" content="Pagina principal del sitio web de la empresa Salitrera Irma Ltda">
+<meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Icon -->
 <link rel="shortcut icon" href="img/logosmall.png">
@@ -17,7 +23,7 @@
 	<header class="navbar navbar-expand-lg">
 	  <div class="container-fluid">
 	    <a href="index.html">
-	    	<img class="img-fluid img-thumbnail" src="img/logosmall.png" alt="Logo de la empresa">
+	    	<img class="img-fluid img-thumbnail" src="img/logo/logosmall.svg" alt="Logo de la empresa">
 	    </a>
 	    <a class="nav-link ms-auto fs-5" aria-current="page" href="views/intranet.html">Iniciar sesión</a>
 	  </div>
@@ -29,7 +35,7 @@
 		    </button>
 		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav">
-				  <li class="nav-item dropdown">
+				 <!-- <li class="nav-item dropdown">
 				    <a class="nav-link dropdown-toggle" href="views/servicio.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 		            Servicios
 		            </a>
@@ -38,7 +44,7 @@
 			            <li><a class="dropdown-item" href="#">	Fosas</a></li>
 			            <li><a class="dropdown-item" href="#">Asesoria Sanitarias</a></li>
 			          	</ul>
-				  </li>
+				  </li> -->
 				  <li class="nav-item">
 				    <a class="nav-link active" aria-current="page" href="views/servicio.html">Servicios</a>
 				  </li>
@@ -59,10 +65,10 @@
 		<div class="indexPrincipal__presentacion container-fluid">
 			<div class="row d-flex align-items-center">
 				<div class="col-md-9 col-lg-9">
-					<img class="img-fluid pb-2" src="img/empresapresentacion.jpg" alt="Imagen de baños">		
+					<img class="img-fluid pb-2" src="img/empresa/empresapresentacion.jpg" alt="Imagen de baños">		
 				</div>
 				<div class="col-md-3 col-lg-3">
- 					<p class="fw-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. A quasi expedita neque fuga unde officia, dignissimos non quo, inventore illum reiciendis quaerat aliquid saepe ducimus consectetur eaque, voluptates minima. Molestiae? <a href="#">Ver mas.</a>
+ 					<p class="fw-semibold">Contamos con 12 años de experiencia en el servicio de baños químicos y fosas sépticas, años en los cuales hemos adquirido una experiencia que hoy nos permite brindar un servicio acorde a los requerimientos de nuestros clientes. <a href="#">Ver mas.</a>
  					</p>
 				</div>
 			</div>
@@ -72,7 +78,7 @@
 		<div class="container-fluid">
 			<div class="row d-flex justify-content-center align-items-start">
 				<div class="col-sm-11 col-md-6 col-lg-3">
-					<p class="pt-2 fs-2 text-center">Contador</p>
+					<h2 class="pt-2 text-center">Contador</h2>
 					<table  class="indexResumen__Tabla table table-bordered border-white bg-rosado">
 						<thead>
 							<tr>
@@ -97,24 +103,43 @@
 					</table>
 				</div>	
 				<div class="indexClientes col-md-6 col-lg-9 pt-2">
-					<p class="fs-2 text-center">Clientes</p>
+					<h2 class="text-center">Clientes</h2>
 					<div class="row d-flex justify-content-evenly mx-2" >
-						<div class="indexClientes__carta col-sm-5 col-lg-2 my-1 d-flex flex-column justify-content-start align-items-center">
-							<p class="fs-3 text-start">Lorem</p>
-							<img class="img-fluid mb-3" src="img/personal.png" alt="Imagen de personal">
+						<div class="indexClientes__carta col-sm-5 col-lg-2 mb-1 d-flex flex-column justify-content-center align-items-stretch">
+							<div class="row">
+								<div class="col-12">
+
+								</div>
+								<div class="col">
+
+								</div>
+							</div>
+							<p class="text-start">Brigada motorizada n°24 Huamachuco</p>
+								<img class="mb-3" src="img/clientes/huamachuco.png" alt="Imagen de personal">
 						</div>
-						<div class="indexClientes__carta col-sm-5 col-lg-2 my-1 d-flex flex-column justify-content-start align-items-center">
-							<p class="fs-3 text-start">Lorem</p>
-							<img class="img-fluid mb-3" src="img/personal.png" alt="Imagen de personal">
+						<div class="indexClientes__carta col-sm-5 col-lg-2 mb-1 d-flex flex-column justify-content-evenly align-items-stretch">
+							<p class="text-start">Ilustre Municipalidad de Arica</p>
+							<div>
+								<img class="mb-3" src="img/clientes/municipalidad-de-arica.png" alt="Imagen de personal">
+							</div>	
 						</div>
-						<div class="indexClientes__carta col-sm-5 col-lg-2 my-1 d-flex flex-column justify-content-start align-items-center">
-							<p class="fs-3 text-start">Lorem</p>
-							<img class="img-fluid mb-3" src="img/personal.png" alt="Imagen de personal">
+						<div class="indexClientes__carta col-sm-5 col-lg-2 mb-1 d-flex flex-column justify-content-center align-items-stretch">
+							<p class="text-start">Semillera Tuniche</p>
+							<div>
+								<img class="mb-3 pb-2" src="img/clientes/tuniche.png" alt="Imagen de personal">
+							</div>	
 						</div>
-						<div class="indexClientes__carta col-sm-5 col-lg-2 my-1 d-flex flex-column justify-content-start align-items-center">
-							<p class="fs-3 text-start">Lorem</p>
-							<img class="img-fluid mb-3" src="img/personal.png" alt="Imagen de personal">
+						<div class="card indexClientes__carta col-sm-5 col-lg-2 mb-1 d-flex flex-column justify-content-evenly align-items-stretch" style="width: 18rem;">
+								<p>Ultramar</p>
+							<img class="p-2" src="img/clientes/ultramar.png" alt="Card image cap">
+						  </div>
+					<!--	<div class="indexClientes__carta col-sm-5 col-lg-3 mb-1 d-flex flex-column justify-content-evenly align-items-stretch">
+							<p class="text-start">Ultramar</p>
+							<div>
+								<img class="mb-3" src="img/clientes/ultramar.png" alt="Imagen de personal">
+							</div>
 						</div>
+					-->	
 					</div>	
 				</div>
 			</div>
@@ -132,13 +157,13 @@
 			<div class="row">
 				<div class="col-12 my-1">
 					<a href="#" target="_BLANK">
-		    		<img src="img/facebook.png" alt="logo de facebook">	
+		    		<img src="img/logo/facebook.svg" alt="logo de facebook">	
 			    	</a>
 			    	<a href="#" target="_BLANK">
-			    		<img src="img/instagram.png" alt="logo de instagram">	
+			    		<img src="img/logo/instagram.svg" alt="logo de instagram">	
 			    	</a>
 			    	<a href="#" target="_BLANK">
-			    		<img src="img/linkedin.png" alt="logo de linkedin">	
+			    		<img src="img/logo/linkedin.svg" alt="logo de linkedin">	
 			    	</a>	
 				</div>
 			</div>

@@ -7,20 +7,20 @@
 
 .indexResumen{
 	&__Tabla{
-	background-color: $bgRosado;
+		@extend .backgroundRosado;
 	}
 }
 
 .indexClientes{
 	&__carta{
-	background-color: $bgRosado;
+		@extend .backgroundRosado;
 	}
 }
 /* Index */
 /* servicio */
 .servicioProductos{
 	&__carta{
-	background-color: $bgRosado;
+		@extend .backgroundRosado;
 	}
 }
 /* servicio */
@@ -51,7 +51,7 @@
 	}
 
 	&__personal__bg{
-		background-color: $bgRosado;
+		@extend .backgroundRosado;
 	}
 }
 /* quienes somos */
@@ -65,7 +65,7 @@
 /* intranet */
 .intranet{
 	&__bg{
-		background-color: $bgRosado;
+		@extend .backgroundRosado;
 	}	
 }
 /* intranet */

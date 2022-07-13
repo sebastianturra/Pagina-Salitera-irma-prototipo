@@ -8,9 +8,15 @@
 /* animaciones, transiciones */
 
 @mixin bgLineas{
-	background-image: url("../img/bg_principal.jpg");
+	background-image: url("../img/background/bg_principal.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
 }
+
+.backgroundRosado{
+	background-color: $bgRosado;
+}
+
+
