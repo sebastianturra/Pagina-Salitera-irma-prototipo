@@ -1,0 +1,7 @@
+User-Agent: *
+
+User-Agent: Googlebot-Image
+Disallow: /img
+
+User-Agent: Googlebot
+Disallow: /scss
