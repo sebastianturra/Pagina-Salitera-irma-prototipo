@@ -1,6 +1,6 @@
 $footer: 'footer';
 
-footer{
+.footer{
 	@if $footer == 'pie'{
 		background-color: $bgCeleste;
 	}
@@ -10,4 +10,25 @@ footer{
 	@else{
 		background-color: $bgAzul;
 	}
+
+	color: $bgWhite;
+	& a{
+		text-decoration:none;
+		color: $bgWhite;
+	}
+
+	& a img{
+		width: 65%;
+	}
+
+	& a:hover{
+		color: $bgGrey;
+	}
+
+	&__contenido{
+		//padding: 0px;
+		display:grid;
+		justify-content: center;
+	}
+
 }

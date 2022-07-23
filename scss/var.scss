@@ -3,12 +3,14 @@
  $colores: (
  	'rosado':rgba(232,225,202,1),
  	'celeste':rgba(194,208,193,1),
- 	'azul':rgba(107,123,162,1),
+ 	'azul':rgb(107, 122, 162),
  	'morado':rgba(9,46,76,1),
  	'gray':rgba(232,225,202,1),
  	'darkgray':rgba(229,221,221,.8),
  	'red':#FF0000,
  	'yellow':#FFF000,
+	'white':#ffffff,
+	'black':#000000
  );
 /* map */
 
@@ -21,6 +23,8 @@ $bgGrey: map-get($map:$colores, $key:'gray');
 $bgDarkgrey: map-get($map:$colores, $key:'darkgray');
 $bgRed: map-get($map:$colores, $key:'red');
 $bgYellow: map-get($map:$colores, $key:'yellow');
+$bgWhite: map-get($map:$colores, $key:'white');
+$bgBlack: map-get($map:$colores, $key:'black');
 /*background*/ 
 
 

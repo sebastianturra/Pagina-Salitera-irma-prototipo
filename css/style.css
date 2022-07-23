@@ -23,8 +23,23 @@ header {
   background-color: rgb(9, 46, 76);
 }
 
-footer {
-  background-color: rgb(107, 123, 162);
+.footer {
+  background-color: rgb(107, 122, 162);
+  color: #ffffff;
+}
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer a img {
+  width: 65%;
+}
+.footer a:hover {
+  color: rgb(232, 225, 202);
+}
+.footer__contenido {
+  display: grid;
+  justify-content: center;
 }
 
 /* Index */
@@ -41,7 +56,7 @@ footer {
 /* servicio */
 /*promociones */
 .promocionCuadros__colorBlue {
-  background-color: rgb(107, 123, 162);
+  background-color: rgb(107, 122, 162);
 }
 
 .promocionCuadros__colorRed {
