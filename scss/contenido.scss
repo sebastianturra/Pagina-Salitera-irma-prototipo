@@ -73,3 +73,22 @@
 .disclaimer{
 	display: none;
 }
+
+@media (min-width: 992px){
+	/* Index */
+	img[src="img/logo/logosmall.svg"]{
+	  width: 70%;
+	}
+	/* Index */
+	/* otros */
+	img[src="../img/logo/logosmall.svg"]{
+	  width: 70%;
+	/* otros */
+	}
+  }
+
+  .breadcrumb{
+	padding: 2px 0 2px;
+	border-top: 1px solid rgb(170, 170, 170);
+	border-bottom: 1px solid  rgb(170, 170, 170);
+  }
